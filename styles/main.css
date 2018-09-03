@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  font-size: 16px;
+}
+
+nav {
+  background-color: gray;
+  grid-column: 1/5;
+  display: flex;
+}
+
+nav a {
+  color: #ffff;
+  margin: 0 0 0 auto;
+}
+
+nav svg {
+  width: 10em;
+}
+
+header {
+  background-color: red;
+  grid-column: 1/5;
+  justify-self: center;
+  display: block;
+}
+
+header svg {
+  width: 30em;
+  filter: drop-shadow(8px 5px 0px #6c6b60);
+}
+
+section {
+  background-color: green;
+  grid-row-start: 3;
+}
+
+footer {
+  background-color: blue;
+  grid-row-start: 4;
+}
