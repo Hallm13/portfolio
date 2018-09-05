@@ -20,7 +20,7 @@ h1, h2 {
   font-weight: 400;
 }
 
-h1, h2, a {
+h1, h2, a, .copyright {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -36,7 +36,7 @@ h2 {
   letter-spacing: 0.25%;
 }
 
-a {
+a, .copyright {
   font-weight: 400;
   font-size: 13.34px;
   line-height: 18px;
@@ -97,7 +97,6 @@ h1:nth-of-type(2) {
 }
 
 section {
-  background-color: green;
   grid-row-start: 3;
   grid-column: 1/5;
   justify-self: center;
@@ -113,8 +112,16 @@ section img {
 }
 
 footer {
-  background-color: blue;
   grid-row-start: 4;
   justify-self: center;
   grid-column: 1/5;
+  margin-top: 48px;
+  padding: 24px 10px 48px 10px;
+  border-top: 5px solid #c9c7bb;
+  color: #ffff;
+}
+
+footer a {
+  padding: 24px 24px 0 24px;
+  color: #ffff;
 }
