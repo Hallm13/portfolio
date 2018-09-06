@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* Typography */
 body {
   font-size: 16px;
   font-family: 'Merriweather', serif;
@@ -33,10 +33,6 @@ h2 {
   letter-spacing: 0.25%;
 }
 
-a:hover {
-  color: #c9c7bb;
-}
-
 a, .overline {
   font-weight: 400;
   font-size: 13.34px;
@@ -45,13 +41,12 @@ a, .overline {
   text-transform: uppercase;
   text-decoration: none;
 }
-
+/* Top Navigation */
 nav {
   display: flex;
   padding: 48px 10px 24px 10px;
   position: sticky;
   top: 0px;
-  /* background-color: rgba(51, 51, 51, 0.75); */
 }
 
 nav:before {
@@ -68,6 +63,14 @@ nav:before {
 nav a {
   color: #ffff;
   z-index: 2;
+}
+
+.nav-about:hover {
+  background-image: linear-gradient(transparent 10px, #817f74 20px,transparent 5%);
+}
+
+.nav-work:hover {
+  background-image: linear-gradient(transparent 10px, #817f74 20px,transparent 5%);
 }
 
 .nav-home {
@@ -87,6 +90,7 @@ nav svg {
   margin: 0 auto 0 0;
 }
 
+/* Hero Section */
 header {
   display: block;
   text-align: center;
@@ -174,9 +178,17 @@ footer {
   text-align: center;
 }
 
-footer li, a {
+footer li {
   color: #ffff;
   margin-bottom: 24px;
+}
+
+.footer-link {
+  color: #ffff;
+}
+
+.footer-link:hover {
+  color: #c9c7bb;
 }
 
 @media screen and (min-width: 800px) {
