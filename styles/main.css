@@ -6,6 +6,8 @@ body {
   font-size: 16px;
   font-family: 'Merriweather', serif;
   background-color: #333333;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -129,15 +131,16 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(100px, 700px));
   grid-auto-rows: 100px;
   grid-auto-flow: dense;
-  grid-gap: 24px;
-  max-width: 1000px;
-  margin: auto;
+  /* grid-gap: 15px; */
+  /* max-width: 1000px; */
+  /* margin: auto; */
 }
 
 .features li {
   grid-column: span 2;
   grid-row: span 2;
   display: block;
+  border: 15px solid #333333;
 }
 
 .features li:hover img {
@@ -145,12 +148,17 @@ section {
 }
 
 .features li:hover .feature-text {
+  transition: 0.9s ease;
   opacity: 1;
+}
+
+.features li:hover .features {
+  display: none;
 }
 
 .features li:hover {
   border: 15px solid #c9c7bb;
-  transition: .5s ease;
+  transition: 0.9s ease;
 }
 
 .features img {
@@ -160,7 +168,7 @@ section {
   opacity: 1;
   display: block;
   transition: .5s ease;
-  backface-visibility: hidden;
+  /* backface-visibility: hidden; */
 }
 
 .feature-text {
