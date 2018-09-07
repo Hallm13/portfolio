@@ -45,6 +45,7 @@ a, .overline {
 nav {
   display: flex;
   padding: 48px 10px 24px 10px;
+  position: -webkit-sticky;
   position: sticky;
   top: 0px;
   /* background-image: linear-gradient(rgba(51, 51, 51, 0.75) 70px,transparent 110px); */
