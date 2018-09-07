@@ -43,6 +43,24 @@ a, .overline {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+/* Typography Colors */
+.light {
+  color: #ffffff;
+}
+
+.medium{
+  color: #979797;
+}
+
+.dark {
+  color: #000000;
+}
+
+.highlight {
+  color: #c9c7bb;
+}
+
 /* Top Navigation */
 nav {
   display: flex;
