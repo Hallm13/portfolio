@@ -16,7 +16,7 @@ h1 {
 }
 
 h1, h2 {
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h1, h2, a, .overline {
@@ -36,7 +36,7 @@ h2 {
 }
 
 a, .overline {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 13.34px;
   line-height: 18px;
   letter-spacing: 2.5px;
@@ -193,7 +193,7 @@ section {
   transition: .5s ease;
   opacity: 0;
   position: relative;
-  top: -75%;
+  top: -65%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -246,11 +246,11 @@ footer li {
   }
 
   .feature-text {
-    top: -60%;
+    top: -55%;
   }
 
   .small-feature {
-    top:-75%;
+    top:-65%;
   }
 
 }
