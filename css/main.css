@@ -63,7 +63,6 @@ a, .overline {
 
 /* Top Navigation */
 nav {
-  display: flex;
   padding: 48px 10px 24px 10px;
   position: -webkit-sticky;
   position: sticky;
@@ -74,16 +73,9 @@ nav {
   z-index: 1;
 }
 
-/* nav:before {
-  content: '';
-  position: absolute;
-  filter: blur(30px);
-  left:0px;
-  right:0px;
-  top:-50px;
-  bottom:20px;
-  background-color: rgba(51, 51, 51, 0.75);
-} */
+nav ul {
+  display: flex;
+}
 
 nav a {
   color: #ffff;
@@ -220,6 +212,31 @@ footer li {
 
 .footer-link:hover {
   color: #c9c7bb;
+}
+
+/* Summary Pages */
+
+.intro {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 48px 10px 48px 10px;
+}
+.section-container {
+  text-align: left;
+}
+
+.text-block {
+  margin: 24px 0 48px 0;
+}
+
+.project-role {
+  margin-bottom: 24px;
+}
+
+/* Buttons */
+
+.cta {
+  
 }
 
 @media screen and (min-width: 800px) {
