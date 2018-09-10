@@ -167,10 +167,10 @@ section {
 } */
 
 
-/* .project-card:hover .feature-overlay  {
+.project-card:hover .feature-overlay, .project-card:focus .feature-overlay  {
   transition: 0.5s ease;
   opacity: 1;
-} */
+}
 
 .features img {
   width: 100%;
