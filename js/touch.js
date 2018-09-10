@@ -1,0 +1,8 @@
+$(document).ready(function() {
+  $('.feature-overlay').mouseover(function() {
+    $( this ).css('opacity', '1');
+  });
+  $('.feature-overlay').mouseout(function() {
+    $( this ).css('opacity', '0');
+  });
+});
