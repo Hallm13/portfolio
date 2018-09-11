@@ -16,7 +16,7 @@ h1 {
 }
 
 h1, h2 {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h1, h2, a, .overline {
@@ -36,7 +36,7 @@ h2 {
 }
 
 a, .overline {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 13.34px;
   line-height: 18px;
   letter-spacing: 2.5px;
@@ -63,7 +63,7 @@ a, .overline {
 
 /* Top Navigation */
 nav {
-  margin-top: 38px;
+  margin: 28px 0 7vw 0;
   padding: 10px 10px 0px 10px;
   position: -webkit-sticky;
   position: sticky;
@@ -109,15 +109,15 @@ nav svg {
 }
 
 /* Hero Section */
-header {
+.hero {
   display: block;
   text-align: center;
   padding-top: 48px;
 }
 
-header svg {
+.hero svg {
   width: 90vw;
-  max-width: 500px;
+  max-width: 300px;
   filter: drop-shadow(8px 5px 0px #6c6b60);
   z-index: -1;
 }
@@ -133,7 +133,7 @@ h1:nth-of-type(2) {
 }
 
 section {
-  padding: 0 10px;
+  padding: 0 20px;
   text-align: center;
 }
 
@@ -142,7 +142,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(100px, 700px));
   grid-auto-rows: 150px;
   grid-auto-flow: dense;
-  grid-gap: 15px;
+  grid-gap: 24px;
 
   /* max-width: 1000px; */
   /* margin: auto; */
@@ -250,6 +250,24 @@ footer li {
 }
 
 @media screen and (min-width: 800px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  .hero svg {
+    max-width: 500px;
+  }
+
+  h1:nth-of-type(1)  {
+    color: #ffff;
+    margin: 7vw 24px 0 24px;
+  }
+
+  h1:nth-of-type(2) {
+    color: #c2c2c2;
+    margin: 2vw 32px 7vw 32px;
+  }
+
   .features {
     grid-auto-flow: column;
   }
@@ -259,8 +277,20 @@ footer li {
     grid-row: span 4;
   }
 
-  .features li:nth-child(1) .feature-text {
-    top: 30%;
+  .feature-text {
+    top: 0%;
+  }
+
+  .big-feature {
+    top: 20%;
+  }
+
+  .feature-text h1 {
+    margin-bottom: 1vw;
+  }
+
+  footer {
+  margin-top: 7vw;
   }
 
   footer ul {
