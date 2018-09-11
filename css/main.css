@@ -71,7 +71,7 @@ nav {
   /* background-image: linear-gradient(rgba(51, 51, 51, 0.75) 70px,transparent 110px); */
   box-shadow: 0px 0px 10px 10px rgba(51, 51, 51, 0.75);
   background-color: rgba(51, 51, 51, 0.75);
-  z-index: 1;
+  z-index: 3;
 }
 
 nav ul {
@@ -80,7 +80,7 @@ nav ul {
 
 nav a {
   color: #ffff;
-  z-index: 2;
+  z-index: 5;
 }
 
 .nav-about:hover {
@@ -137,7 +137,7 @@ section {
   text-align: center;
 }
 
-.features {
+.features, .more-features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 700px));
   grid-auto-rows: 150px;
@@ -148,7 +148,7 @@ section {
   /* margin: auto; */
 }
 
-.features li {
+.features li, .more-features-grid li {
   grid-column: span 2;
   grid-row: span 2;
   display: block;
@@ -236,12 +236,12 @@ footer li {
   text-align: center;
 }
 
-.summary-hero img {
+.summary-hero img, .tour img {
   width: 60vw;
   margin: 48px auto;
 }
 
-.intro, .problem, .solution, .tour, .features {
+.intro, .problem, .solution, .summary-features {
   max-width: 600px;
   margin: 0 auto;
   padding: 48px 10px 48px 10px;
@@ -296,7 +296,7 @@ footer li {
   background-color: #c9c7bb;
 }
 
-.problem h2, .problem p, .solution h2, .solution p {
+.problem h2, .problem p, .solution h2, .solution p, .summary-features {
   margin-left: 10px;
 }
 
@@ -308,8 +308,63 @@ footer li {
   background-color: #f9f7eb;
 }
 
+.tour p, .branding p {
+  text-align: left;
+}
 
+.tour {
+  margin-top: 48px;
+}
 
+.summary-features  p, .branding p {
+  margin: 12px 0 48px 0;
+}
+
+.branding p {
+  color: #ffff;
+}
+
+.branding img {
+  margin-bottom: 96px;
+}
+
+/* Read More Line */
+.more {
+  text-align: center;
+  margin-bottom: 48px;
+  max-width: 600px;
+}
+
+.more .hr {
+  position: relative;
+  margin-top: 20px;
+  color: #ffff;
+  text-transform: none;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+.more p.hr {
+  margin-top: 0;
+}
+
+.more p.hr:before {
+  content: "";
+  display: block;
+  border-top: solid 1px #ebe9dd;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.more p.hr span {
+  background: #333333;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+}
 
 @media screen and (min-width: 800px) {
   h1 {
