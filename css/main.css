@@ -4,6 +4,7 @@
 /* Typography */
 body {
   font-size: 16px;
+  font-weight: 300;
   font-family: 'Merriweather', serif;
   background-color: #333333;
   max-width: 1400px;
@@ -16,7 +17,8 @@ h1 {
 }
 
 h1, h2 {
-  font-weight: 400;
+  font-weight: 600;
+  font-style: normal;
 }
 
 h1, h2, a, .overline {
@@ -32,11 +34,11 @@ h2 {
   font-size: 16px;
   font-weight: 300;
   line-height: 29px;
-  letter-spacing: 0.25%;
+  letter-spacing: 0.05em;
 }
 
 a, .overline {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 13.34px;
   line-height: 18px;
   letter-spacing: 2.5px;
@@ -49,12 +51,20 @@ a, .overline {
   color: #ffffff;
 }
 
+.med-light {
+  color:#979797;
+}
+
 .medium{
   color: #979797;
 }
 
 .dark {
   color: #000000;
+}
+
+.med-dark {
+  color: #333333;
 }
 
 .highlight {
@@ -269,7 +279,7 @@ footer li {
   color: #333333;
   align-items: baseline;
   background-color: #ffff;
-  font-family: 'Merriweather', serif;
+  font-family: 'Raleway', serif;
   box-shadow: 4px 3px 0px 0px rgba(201, 199, 187, 1);
   font-weight: 400;
   font-size: 13.34px;
@@ -284,12 +294,17 @@ footer li {
     color: #333333;
     align-items: baseline;
     background-color: rgba(201, 199, 187, 0);
-    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', serif;
     font-weight: 400;
     font-size: 13.34px;
     line-height: 18px;
     letter-spacing: 2.5px;
     margin-top: 24px;
+  }
+
+  .button-dark {
+    background-color: #000000;
+    color: #ffff;
   }
 
 .problem {
@@ -365,6 +380,48 @@ footer li {
   padding: 0 20px;
   position: relative;
   z-index: 1;
+}
+
+/* Full Case Study Pages */
+.dark-background {
+  color: #ffff;
+}
+
+.med-dark-background {
+  background-color: #c9c7bb;
+}
+
+.med-background {
+  background-color: #ebe9dd;
+}
+
+.light-background {
+  background-color: #ffff;
+}
+
+.text-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 48px 10px 24px 10px;
+  text-align: left;
+}
+
+.text-container h2 {
+  margin-bottom: 24px;
+}
+
+.text-container p {
+  margin-bottom: 24px;
+}
+
+.text-callout {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 48px;
+}
+
+.text-callout h1:nth-of-type(2){
+  margin: 24px 0;
 }
 
 @media screen and (min-width: 800px) {
@@ -446,6 +503,7 @@ footer li {
 .cta {
   display: block;
   margin: 0 auto;
+  max-width: 600px;
 }
 
 .problem-solution, .tour-features{

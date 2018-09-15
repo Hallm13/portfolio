@@ -5,7 +5,8 @@
     <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
     <body>
     <nav class="summary-nav">
@@ -74,15 +75,47 @@
         </li>
       </ul>
     </section>
-    <section class="challenge">
+    <section class="text-container med-dark-background">
       <h2 class="dark">Challenge</h2>
       <p class="body1 dark">The scenario setup was that I was working at an agency and a new client comes in who wants to build something in the cloud storage space but they don’t know what they want they want to build. They need a path forward.</p>
       <p class="body1 dark">They knew that they needed to stand out in a crowded market and find something unexplored by current services in order to compete on a large stage.</p>
       <p class="body1 dark">The first stage was to get a better understanding of the space that we were going to be working in and the major actors. I started with selecting several companies to analyze that covered a wide gamut of offerings in the space. These were companies that had some similarities but represented significantly different approaches to service their users.</p>
-    <section class="competitve">
-      <p class="overline dark">competitive analysis</p>
     </section>
-    <section class="competitive-text">
+    <section class="multi-column-container light-background">
+      <p class="overline dark">competitive analysis</p>
+      <div class="competitor-container">
+        <ul class="competitor-profile">
+          <li class="competitor-logo">
+            <img src="/portfolio/images/airtable-logo.svg" alt="Airtable Logo">
+          </li>
+          <li class="competitor-pro">
+            <i class="material-icons">mood</i>
+            <p class="body1 dark">Collaborative</p>
+          </li>
+          <li class="competitor-pro">
+            <i class="material-icons">mood</i>
+            <p class="body1 dark">Easy to use</p>
+          </li>
+          <li class="competitor-con">
+            <i class="material-icons">mood_bad</i>
+            <p class="body1 dark">Cluttered</p>
+          </li>
+        </ul>
+        <ul class="competitor-profile">
+          <li class="competitor-logo"></li>
+          <li class="competitor-pro"></li>
+          <li class="competitor-pro"></li>
+          <li class="competitor-con"></li>
+        </ul>
+        <ul class="competitor-profile">
+          <li class="competitor-logo"></li>
+          <li class="competitor-pro"></li>
+          <li class="competitor-pro"></li>
+          <li class="competitor-con"></li>
+        </ul>
+      </div>
+    </section>
+    <section class="text-container light-background">
       <p class="body1 dark">Airtable is a very approachable relational database that is set up like an Excel spreadsheet. Airtable is very easy to collaborate on and can be used for a million and one things. I use Airtable to plan vacations, budget for home renovations, and pretty much anything that works better in list or spreadsheet format.</p>
       <p class="body1 dark">One major downside that came out of the competitive analysis on Airtable and the other two companies is that it’s difficult to deal with data that has been sitting around awhile. For Airtable it’s tough to see the age of a record, so if you are storing contacts, for instance, their info may be outdated and you really have to dive deep into a record to piece that picture together. </p>
       <p class="body1 dark">Trello is also very collaborative and easy to use and is great for organization and visualizing how data moves through the kanban. Usually people have a “done” column where cards go when you have completed all of your tasks and that column tends to stack up with old cards and starts to clutter the board.</p>
@@ -90,43 +123,108 @@
       <p class="body1 dark">These services can get cluttered and more difficult to use the longer you use them. I took that insight and put it in my back pocket for later.</p>
       <p class="body1 dark">Next, I wanted to see what the users of those services said, so I launched a survey.</p>
     </section>
-    <section class="cta">
+    <section class="cta light-background">
       <div>
           <a href="">
-            <button class="button-filled">
-              <p class="overline dark">read the full analysis</p>
+            <button class="button-filled button-dark">
+              <p class="overline">read the full analysis</p>
             </button>
           </a>
       </div>
     </section>
-    <section class="research-text">
-      <p class="body1 dark">That survey showed that 90% were using some sort of cloud storage service for either work or personal use. 75% of respondents said that they used cloud storage to share, save, and organize links, images, and documents.</p>
-      <p class="body1 dark">For the most part, the survey showed that users were happy with these cloud storage services but there were indirect indicators in qualitative sections that pointed to some of the issues that I saw earlier in the competitive analysis: cluttered, tough to find files, tough to share files.</p>
-      <p class="body1 dark">This research pointed towards two very important areas: that collaboration was a central part of all of these services, and that users needed a way to clear out old files that were no longer relevant.</p>
-    </section>
-    <section class="research">
-      <div>
+    <section class="text-container med-background">
         <p class="overline dark">user research</p>
-        <figure>
-          <figcaption>Use cloud storage</figcaption>
-          <img src="" alt="" />
-        </figure>
-      </div>
-      <div>
-        <figure>
-          <figcaption>Use for links, images, documents</figcaption>
-          <img src="" alt="" />
-        </figure>
-      </div>
+        <div>
+          <figure>
+            <figcaption>Use cloud storage</figcaption>
+            <img src="/portfolio/images/90pie.svg" alt="90%">
+          </figure>
+          <figure>
+            <figcaption>Use for links, images, documents</figcaption>
+            <img src="/portfolio/images/75pie.svg" alt="75%">
+          </figure>
+        </div>
+        <div class="text-container med-background">
+          <p class="body1 dark">That survey showed that 90% were using some sort of cloud storage service for either work or personal use. 75% of respondents said that they used cloud storage to share, save, and organize links, images, and documents.</p>
+          <p class="body1 dark">For the most part, the survey showed that users were happy with these cloud storage services but there were indirect indicators in qualitative sections that pointed to some of the issues that I saw earlier in the competitive analysis: cluttered, tough to find files, tough to share files.</p>
+          <p class="body1 dark">This research pointed towards two very important areas: that collaboration was a central part of all of these services, and that users needed a way to clear out old files that were no longer relevant.</p>
+        </div>
     </section>
-    <section class="cta">
+    <section class="cta med-background">
       <div>
           <a href="">
-            <button class="button-filled">
-              <p class="overline dark">read the full analysis</p>
+            <button class="button-filled button-dark">
+              <p class="overline">read the full analysis</p>
             </button>
           </a>
       </div>
+    </section>
+    <section class="text-container dark-background">
+      <div class="text-callout">
+        <h1 class="light">Collaboration</h1>
+        <h1 class="light">+</h1>
+        <h1 class="light">Expiration</h1>
+      </div>
+      <p class="body1 light">The first iteration of the app would focus on these two guiding elements.</p>
+      <p class="body1 light">There was a long road to move from this initial insight to the first sketches. In order to flesh out these ideas, I looked at who I was building for. I put together the user research into two personas that represented the roles of creator and consumer.</p>
+      <p class="body1 light">I also developed a list of user stories based on what these users would need to accomplish.</p>
+      <p class="body1 light">I went back to the companies in the competitive analysis to look at common user flows across their sites and mapped them to what I need to create in this project.</p>
+    </section>
+    <section class="text-container med-dark-background">
+      <p class="overline dark">process</p>
+      <p class="body1 dark">All of these insights and materials went into the 1st concept. I put together paper sketches and clickable prototypes in Invision, so I could test them as quickly as possible with users to see if I was heading in the right direction.</p>
+    </section>
+    <section class="personas med-dark-background"></section>
+    <section class="arrow med-dark-background"></section>
+    <section class="drafts med-dark-background"></section>
+    <section class="text-container med-dark-background">
+      <p class="body1 dark">The results from the user testing came in and it was clear I bit off more than I could chew with the twin focus on both collaboration and expiration. Instead of enhancing the experience, working on both elements watered down the benefits and made it difficult for users to see how the app worked and would benefit them.</p>
+      <div class="text-callout">
+        <h1 class="medium">Collaboration</h1>
+        <h1 class="medium">+</h1>
+        <h1 class="med-dark">Expiration</h1>
+      </div>
+      <p class="body1 dark">It was decision time. I had to choose one or the other to focus the app on. I went back to the research. Expiration kept coming up as the stronger differentiator. In the user testing, expiration was what also stood out most to users.</p>
+      <p class="body1 dark">I refocused the project on expiration. As I began working on branding, I needed to figure out how to present file expiration as something that would benefit users.</p>
+      <p class="body1 dark">Expiration is usually a negative thing. Your food expires and goes bad. Your gift cards expire and become pointless. I needed the branding to guide me in how to make an app that could deliver a positive experience around expiration.</p>
+    </section>
+    <section class="text-container dark-background">
+      <p class="overline light">brand</p>
+      <p class="body1 light">The brand focuses on expiration as renewal. Sunsets signal the end of something but also the start of a new day. Expiration can be about refreshing and resetting to make room for what matters next.</p>
+      <figure>
+        <img src="/portfolio/images/fadelogoball.svg" alt="Fade Logo">
+      </figure>
+      <p class="body1 light">The brand also functioned as a guide for design decisions to come in both the styling and and the flows.</p>
+      <figure>
+        <img src="/portfolio/images/fade-logo-sketches.svg" alt="Fade Logo Sketches">
+      </figure>
+      <figure>
+        <i class="material-icons">arrow_downward</i>
+      </figure>
+      <figure>
+        <img src="/portfolio/images/fadelogomark.svg" alt="Fade Logomark">
+      </figure>
+      <p class="body1 light">Fade is about renewal and lightness. Files expires to make room for what matters. Fade should stay out of the way. It should be subtle, receding into the background, and only appearing when you need it.</p>
+    </section>
+    <section class="text-container dark-background">
+      <p class="overline light">typography</p>
+      <img src="/portfolio/images/fade-typography.svg" alt="Fade Typography">
+      <p class="body1 light">The typography was about cleanliness, readability, and a logical feel.</p>
+      <p class="body1 light">The branding combined with user insights led to the 2nd major iteration of the app.</p>
+    </section>
+    <section class="text-container med-background">
+      <p class="overline dark">iteration</p>
+      <figure>
+        <img src="/portfolio/images/fadelogomark.svg" alt="Fade Logomark">
+      </figure>
+      <p class="body1 dark">User feedback on the second version of the app showed that people understood the expiration direction and took to it very quickly. It was much more clear to users after I focused on expiration.</p>
+      <p class="body1 dark">Even though users could see the value in the app, there were still clear signs that the homepage needed to do a better job of explaining the service and answering important questions before users would sign up and actually start using the app.</p>
+      <p class="body1 dark">I dove into the homepage and added new sections walking through the features and pricing and set up preference tests with users to finalize the homepage.</p>
+    </section>
+    <section class="text-container med-background">
+      <p class="overline dark">lessons</p>
+      <p class="body1 dark">Ultimately Fade was a lesson in the power of rapid prototyping to create and improve a concept over just a few weeks.</p>
+      <p class="body1 dark">Fade evolved greatly from its initial concepts. Early user testing identified that the product was trying to do too much by focusing on collaboration and expiration. That testing focused the product and made it much better. Fade grew with each round of testing as I learned how to make each part of the service stronger.</p>
     </section>
     <div class="more">
       <a href="">
