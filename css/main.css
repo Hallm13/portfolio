@@ -17,7 +17,7 @@ h1 {
 }
 
 h1, h2 {
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -400,7 +400,7 @@ footer li {
 }
 
 .text-container {
-  max-width: 600px;
+  max-width: 724px;
   margin: 0 auto;
   padding: 48px 10px 24px 10px;
   text-align: left;
@@ -422,6 +422,27 @@ footer li {
 
 .text-callout h1:nth-of-type(2){
   margin: 24px 0;
+}
+
+.competitor-profile {
+  margin-top: 48px;
+}
+
+.competitor-logo {
+  margin-bottom: 24px;
+}
+
+.competitor-fact {
+  display: flex;
+}
+
+.competitor-fact i {
+  margin-right: 12px;
+}
+
+figure {
+  margin-top: 48px;
+  text-align: center;
 }
 
 @media screen and (min-width: 800px) {
@@ -503,7 +524,7 @@ footer li {
 .cta {
   display: block;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 724px;
 }
 
 .problem-solution, .tour-features{
@@ -554,6 +575,11 @@ footer li {
   grid-column: span 2;
   grid-row: span 2;
   max-width: 300px;
+}
+
+/* Full Case Study */
+.text-container {
+  padding: 48px 62px 24px 62px;
 }
 
 }
