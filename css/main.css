@@ -237,7 +237,7 @@ footer li {
 /* Summary Pages */
 
 .summary-hero {
-  background-image: url(/portfolio/images/catcoffee.png);
+  background-image: url(/css/images/catcoffee.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -288,7 +288,7 @@ footer li {
 }
 
 .button-open {
-    /* width: 320px; */
+    width: 320px;
     height: 35px;
     border: none;
     color: #333333;
@@ -302,10 +302,34 @@ footer li {
     margin-top: 24px;
   }
 
-  .button-dark {
-    background-color: #000000;
-    color: #ffff;
+.button-filled:hover {
+  color: #ffffff;
+  background-color: #c9c7bb;
+  box-shadow: 4px 3px 0px #FFFFFF;
+}
+
+.button-open:hover {
+  border: 2px solid #C9C7BB;
+}
+
+.button-dark {
+  background-color: #000000;
+  color: #ffff;
   }
+
+.button-dark:hover {
+  background-color: #c9c7bb;
+  color: #333333;
+  box-shadow: 4px 3px 0px #131313;
+}
+
+.button-open-dark {
+  border: 2px solid #c9c7bb;
+}
+
+.button-open-dark:hover {
+  border: 2px solid #131313;
+}
 
 .problem {
   background-color: #c9c7bb;
@@ -437,6 +461,11 @@ footer li {
 
 .group-item button {
   text-align: left;
+  width: fit-content;
+}
+
+.group-item button p {
+  margin-bottom: 0;
 }
 
 .group-bullet {
