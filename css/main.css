@@ -281,7 +281,7 @@ footer li {
   background-color: #ffff;
   font-family: 'Raleway', serif;
   box-shadow: 4px 3px 0px 0px rgba(201, 199, 187, 1);
-  font-weight: 400;
+  font-weight: 700;
   font-size: 13.34px;
   line-height: 18px;
   letter-spacing: 2.5px;
@@ -295,7 +295,7 @@ footer li {
     align-items: baseline;
     background-color: rgba(201, 199, 187, 0);
     font-family: 'Raleway', serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 13.34px;
     line-height: 18px;
     letter-spacing: 2.5px;
@@ -406,11 +406,7 @@ footer li {
   text-align: left;
 }
 
-.text-container h2 {
-  margin-bottom: 24px;
-}
-
-.text-container p {
+.text-container h2, .text-container p, .text-container h1  {
   margin-bottom: 24px;
 }
 
@@ -546,6 +542,7 @@ figure i {
   width: auto;
   background-size: cover;
   background-position: center;
+  background-image:
 }
 
 .summary-hero img {
@@ -616,6 +613,10 @@ figure i {
   padding: 48px 62px 24px 62px;
 }
 
+#about-intro {
+  padding: 48px 0 24px 0;
+}
+
 .multi-column {
   display: flex;
   justify-content: space-between;
@@ -623,6 +624,10 @@ figure i {
 
 .group {
   padding: 0 0;
+}
+
+.single-column {
+  max-width: 300px;
 }
 
 }
