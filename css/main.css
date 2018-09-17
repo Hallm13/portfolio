@@ -269,7 +269,7 @@ footer li {
 /* Buttons */
 
 .cta {
-  padding-bottom: 48px;
+  padding: 48px 0;
 }
 
 .button-filled {
@@ -347,7 +347,7 @@ footer li {
 /* Read More Line */
 .more {
   text-align: center;
-  margin-bottom: 48px;
+  margin: 48px 0;
   max-width: 724px;
 }
 
@@ -417,33 +417,65 @@ footer li {
 .text-callout {
   text-align: center;
   font-size: 1.5em;
-  margin-bottom: 48px;
+  margin: 48px 0;
 }
 
 .text-callout h1:nth-of-type(2){
   margin: 24px 0;
 }
 
-.competitor-profile {
-  margin-top: 48px;
+.multi-column {
+  /* text-align: center; */
 }
 
-.competitor-logo {
+.group {
+  margin-top: 48px;
+  margin-left: 20%;
+}
+
+.group-item {
   margin-bottom: 24px;
 }
 
-.competitor-fact {
+.group-item button {
+  text-align: left;
+}
+
+.group-bullet {
   display: flex;
 }
 
-.competitor-fact i {
+.group-bullet i {
   margin-right: 12px;
 }
 
 figure {
-  margin-top: 48px;
+  margin: 48px 0;
   text-align: center;
 }
+
+figure img {
+  max-width: 320px;
+}
+
+figure i {
+  height: 84px;
+  width: 84px;
+}
+
+#wireframes-arrow {
+  margin-bottom: 0;
+}
+
+.wireframes {
+  display: flex;
+  justify-content: center;
+}
+
+.wireframes figure {
+  margin-bottom: 0;
+}
+
 
 @media screen and (min-width: 800px) {
   h1 {
