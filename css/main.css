@@ -237,7 +237,7 @@ footer li {
 /* Summary Pages */
 
 .summary-hero {
-  background-image: url(/portfolio/css/images/catcoffee.png);
+  background-image: url(/css/images/catcoffee.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -288,7 +288,7 @@ footer li {
 }
 
 .button-open {
-    width: 320px;
+    /* width: 320px; */
     height: 35px;
     border: none;
     color: #333333;
@@ -425,12 +425,14 @@ footer li {
 }
 
 .multi-column {
-  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .group {
   margin-top: 48px;
-  margin-left: 20%;
+  padding: 0 20px;
 }
 
 .group-item {
@@ -612,6 +614,15 @@ figure i {
 /* Full Case Study */
 .text-container {
   padding: 48px 62px 24px 62px;
+}
+
+.multi-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group {
+  padding: 0 0;
 }
 
 }
