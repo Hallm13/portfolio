@@ -11,8 +11,7 @@
     crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/touch.js"></script>
   </head>
-    <body>
-      <header class="top-nav">
+    <body id="work">
         <nav>
           <ul>
             <li class="nav-home">
@@ -31,15 +30,14 @@
                 </svg>
               </a>
             </li>
-            <li class="nav-about">
-              <a href="about.html">About</a>
+            <li class="nav-work" id="worknav">
+              <a href="/index.html">Work</a>
             </li>
-            <li class="nav-work">
-              <a href="/work">Work</a>
+            <li class="nav-about">
+              <a href="about.html" id="aboutnav">About</a>
             </li>
           </ul>
         </nav>
-    </header>
     <header class="hero">
       <logo>
         <svg viewBox="0 0 297 99" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,31 +51,37 @@
     <section class="feature-container">
       <ul class="features">
         <li class="project-card">
-          <img src="images/ideamapr-cover.svg" alt="IdeaMapr Project" class="feature-cover">
-          <div class="feature-overlay">
-            <div class="feature-text big-feature">
-              <h1>IdeaMapr</h1>
-              <p class="overline">founder, ux, branding, frontend</p>
+          <a href="/fade-summary.html">
+            <img src="images/ideamapr-cover.svg" alt="IdeaMapr Project" class="feature-cover">
+            <div class="feature-overlay">
+              <div class="feature-text big-feature">
+                <h1>IdeaMapr</h1>
+                <p class="overline">founder, ux, branding, frontend</p>
+              </div>
             </div>
-          </div>
+          </a>
         </li>
         <li class="project-card">
-          <img src="images/fade-cover.svg" alt="Fade Project">
-          <div class="feature-overlay">
-            <div class="feature-text">
-              <h1>Fade</h1>
-              <p class="overline">ux, branding, frontend</p>
+          <a href="/fade-summary.html">
+            <img src="images/fade-cover.svg" alt="Fade Project">
+            <div class="feature-overlay">
+              <div class="feature-text">
+                <h1>Fade</h1>
+                <p class="overline">ux, branding, frontend</p>
+              </div>
             </div>
-          </div>
+          </a>
         </li>
         <li class="project-card">
-          <img src="images/busybus-cover.svg" alt="BusyBus Project">
-          <div class="feature-overlay">
-            <div class="feature-text">
-              <h1>BusyBus</h1>
-              <p class="overline">ux, branding, frontend</p>
+          <a href="/fade-summary.html">
+            <img src="images/busybus-cover.svg" alt="BusyBus Project">
+            <div class="feature-overlay">
+              <div class="feature-text">
+                <h1>BusyBus</h1>
+                <p class="overline">ux, branding, frontend</p>
+              </div>
             </div>
-          </div>
+          </a>
         </li>
       </ul>
     </section>

@@ -93,12 +93,17 @@ nav a {
   z-index: 5;
 }
 
-.nav-about:hover {
-  background-image: linear-gradient(transparent 10px, #817f74 20px,transparent 5%);
+nav li:hover {
+  background-image: linear-gradient(to top, transparent 42%, #817f74 42%, #817f74 68%, transparent 68%);
 }
 
-.nav-work:hover {
-  background-image: linear-gradient(transparent 10px, #817f74 20px,transparent 5%);
+nav a:active {
+  color: #c9c7bb;
+}
+
+body#about li#aboutnav, body#work li#worknav {
+  background-image: linear-gradient(to top, transparent 42%, #817f74 42%, #817f74 68%, transparent 68%);
+  color: #c9c7bb;
 }
 
 .nav-home {
@@ -106,11 +111,11 @@ nav a {
 }
 
 .nav-about {
-  margin-top: 3px;
+  margin: 3px 0 0 24px;
 }
 
 .nav-work {
-  margin: 3px 0 0 24px;
+  margin-top: 3px;
 }
 
 nav svg {
@@ -182,6 +187,10 @@ section {
   opacity: 1;
 }
 
+.active {
+
+}
+
 .features img {
   width: 100%;
   height: 100%;
@@ -196,10 +205,8 @@ section {
   transition: .5s ease;
   opacity: 0;
   position: relative;
-  top: -50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(0%, -100%);
+  -ms-transform: translate(0%, -100%);
   text-align: center;
   color: #ffff;
   height: 100%;
@@ -210,7 +217,11 @@ section {
 
 .feature-text {
   position: relative;
-  top: 20%;
+  top: 40%;
+}
+
+.feature-text h1 {
+  text-transform: none;
 }
 
 footer {
@@ -285,6 +296,7 @@ footer li {
   font-size: 13.34px;
   line-height: 18px;
   letter-spacing: 2.5px;
+  cursor:pointer;
 }
 
 .button-open {
@@ -300,6 +312,7 @@ footer li {
     line-height: 18px;
     letter-spacing: 2.5px;
     margin-top: 24px;
+    cursor:pointer;
   }
 
 .button-filled:hover {
@@ -318,7 +331,7 @@ footer li {
   }
 
 .button-dark:hover {
-  background-color: #c9c7bb;
+  border: 2px solid #c9c7bb;
   color: #333333;
   box-shadow: 4px 3px 0px #131313;
 }
@@ -373,6 +386,7 @@ footer li {
   text-align: center;
   margin: 48px 0;
   max-width: 724px;
+
 }
 
 .more .hr {
@@ -537,7 +551,7 @@ figure i {
   }
 
   .big-feature {
-    top: 20%;
+    top: 40%;
   }
 
   .feature-text h1 {
