@@ -254,8 +254,13 @@ footer li {
   text-align: center;
 }
 
-.summary-hero img, .tour img, .tour video {
+.summary-hero img, .tour img {
   width: 60vw;
+  margin: 48px auto;
+}
+
+.tour video, .tour img {
+  width: 80vw;
   margin: 48px auto;
 }
 
