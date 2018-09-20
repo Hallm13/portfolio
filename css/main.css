@@ -93,7 +93,7 @@ nav a {
   z-index: 5;
 }
 
-nav li:hover {
+.nav-work:hover, .nav-about:hover {
   background-image: linear-gradient(to top, transparent 42%, #817f74 42%, #817f74 68%, transparent 68%);
 }
 
@@ -245,7 +245,7 @@ footer li {
 /* Summary Pages */
 
 .summary-hero {
-  background-image: url(/portfolio/css/images/catcoffee.png);
+  background-image: url(/css/images/catcoffee.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -254,7 +254,7 @@ footer li {
   text-align: center;
 }
 
-.summary-hero img, .tour img {
+.summary-hero img, .tour img, .tour video {
   width: 60vw;
   margin: 48px auto;
 }
@@ -612,7 +612,7 @@ figure i {
   margin: 0 66px 0 40px;
 }
 
-.tour img {
+.tour img, .tour video {
   width: 270px;
   min-width: 200px;
 }
