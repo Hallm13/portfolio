@@ -477,7 +477,6 @@ footer li {
 }
 
 .group {
-  margin-top: 48px;
   padding: 0 20px;
 }
 
@@ -522,7 +521,8 @@ figure i {
 
 .wireframes {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .wireframes figure {
@@ -548,6 +548,10 @@ figure i {
 
 .image-background video {
   margin: 48px 0;
+}
+
+.sm-mockup {
+  max-width: 160px;
 }
 
 
@@ -701,9 +705,9 @@ figure i {
   padding: 0 0;
 }
 
-.user-flow {
-  width: 100%;
-  max-width: 700px;
+.diagram {
+  width: 39vw;
+  max-width: 500px;
 }
 
 .single-column {
@@ -714,8 +718,10 @@ figure i {
   margin: 17vw auto;
 }
 
-.mockup {
+.mockup, .sm-mockup {
   width: 280px;
+  max-width: 724px;
 }
+
 
 }
