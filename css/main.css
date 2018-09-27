@@ -152,7 +152,7 @@ section {
   text-align: center;
 }
 
-.features, .more-features-grid {
+.features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 700px));
   grid-auto-rows: 150px;
@@ -163,15 +163,21 @@ section {
   /* margin: auto; */
 }
 
-.features li, .more-features-grid li {
+.features li {
   grid-column: span 2;
   grid-row: span 2;
   display: block;
+  overflow: hidden;
+  position: relative;
 }
 
 .project-card:hover .feature-overlay, .project-card:focus .feature-overlay  {
-  transition: 0.5s ease;
+  transition: 0.3s ease;
   opacity: 1;
+  -moz-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
 }
 
 .features img {
@@ -181,7 +187,7 @@ section {
   opacity: 1;
   display: block;
   transition: .5s ease;
-  /* backface-visibility: hidden; */
+  backface-visibility: hidden;
 }
 
 .feature-overlay {
@@ -196,6 +202,10 @@ section {
   width: 100%;
   background-color: rgba(51, 51, 51, 0.95);
   border: 15px solid #c9c7bb;
+  -moz-transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
 }
 
 .active {
@@ -512,11 +522,32 @@ figure i {
 
 .wireframes {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .wireframes figure {
   margin-bottom: 0;
+}
+
+.image-background {
+  background-image: url(/css/images/mother-daughter-sunset.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.image-background div {
+  text-align: right;
+  max-width: 724px;
+  margin: 0 auto;
+}
+
+.image-background video {
+  margin: 48px 0;
 }
 
 
@@ -582,12 +613,11 @@ figure i {
   margin-bottom: 48px;
 }
 
-.summary-hero {
+.summary-hero,  {
   /* height: 100vh; */
   width: auto;
   background-size: cover;
   background-position: center;
-  background-image:
 }
 
 .summary-hero img {
@@ -671,8 +701,21 @@ figure i {
   padding: 0 0;
 }
 
+.user-flow {
+  width: 100%;
+  max-width: 700px;
+}
+
 .single-column {
   max-width: 300px;
+}
+
+.image-background video {
+  margin: 17vw auto;
+}
+
+.mockup {
+  width: 280px;
 }
 
 }
