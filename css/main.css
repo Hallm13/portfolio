@@ -172,7 +172,7 @@ section {
 }
 
 .project-card:hover .feature-overlay, .project-card:focus .feature-overlay  {
-  transition: 0.4s ease;
+  transition: 0.3s ease;
   opacity: 1;
   -moz-transform: translateY(-100%);
   -webkit-transform: translateY(-100%);
@@ -522,7 +522,7 @@ figure i {
 
 .wireframes {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .wireframes figure {
@@ -533,10 +533,21 @@ figure i {
   background-image: url(/css/images/mother-daughter-sunset.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: 100%;
-  margin-top: 10px;
+  margin-top: 48px;
   text-align: center;
+}
+
+.image-background div {
+  text-align: right;
+  max-width: 724px;
+  margin: 0 auto;
+}
+
+.image-background video {
+  margin: 48px 0;
 }
 
 
@@ -607,7 +618,6 @@ figure i {
   width: auto;
   background-size: cover;
   background-position: center;
-  background-image:
 }
 
 .summary-hero img {
@@ -691,8 +701,21 @@ figure i {
   padding: 0 0;
 }
 
+.user-flow {
+  width: 100%;
+  max-width: 700px;
+}
+
 .single-column {
   max-width: 300px;
+}
+
+.image-background video {
+  margin: 17vw auto;
+}
+
+.mockup {
+  width: 280px;
 }
 
 }
