@@ -566,15 +566,23 @@ figure i {
 }
 
 .annotation {
+  display: inline-block;
   border-radius: 50%;
   background-color: #2f80ed;
-  height: 30px;
-  width: 30px;
+  height: 1.5em;
+  width: 1.5em;
   text-align: center;
   color: #ffff;
   margin-right: 12px;
   vertical-align: middle;
-  padding-bottom: 2px;
+}
+
+#favored {
+  color: #27ae60;
+}
+
+#unfavored {
+  color: #eb5757;
 }
 
 
