@@ -145,6 +145,7 @@ nav svg {
 .hero-subtitle {
   color: #c2c2c2;
   margin: 24px 32px 48px 32px;
+  font-size: 1.3em;
 }
 
 section {
@@ -481,6 +482,7 @@ footer li {
 
 .group {
   padding: 0 20px;
+  margin-top: 48px;
 }
 
 .group-item img{
@@ -605,7 +607,6 @@ figure i {
   display: none;
 }
 
-
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 2.5em;
@@ -623,6 +624,7 @@ figure i {
   .hero-subtitle {
     color: #c2c2c2;
     margin: 2vw 32px 7vw 32px;
+    font-size: 2em;
   }
 
   .features {
@@ -784,5 +786,11 @@ figure i {
   max-width: 500px;
 }
 
+/* About Page */
+
+#profile {
+  float: right;
+  margin: 48px 0 48px 48px;
+}
 
 }
