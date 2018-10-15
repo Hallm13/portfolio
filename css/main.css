@@ -270,7 +270,6 @@ footer li {
 .summary-hero img, .tour img {
   width: 60vw;
   margin: 48px auto;
-  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 .tour video, .tour img {
@@ -484,7 +483,7 @@ footer li {
   padding: 0 20px;
 }
 
-.group-item {
+.group-item img{
   margin-bottom: 24px;
 }
 
@@ -558,6 +557,10 @@ figure i {
   max-width: 160px;
 }
 
+.mockup {
+  width: 90vw;
+}
+
 .wide-background {
   margin: 48px 0px;
   width: 100%;
@@ -565,16 +568,29 @@ figure i {
   padding: 48px;
 }
 
+.wide-background p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0px 10px;
+}
+
 .annotation {
   display: inline-block;
   border-radius: 50%;
   background-color: #2f80ed;
-  height: 1.5em;
-  width: 1.5em;
+  height: 35px;
+  width: 35px;
   text-align: center;
   color: #ffff;
-  margin-right: 12px;
   vertical-align: middle;
+  word-wrap: normal;
+  direction: ltr;
+  margin-right: 12px;
+}
+
+.bullet-text {
+  max-width: 250px;
 }
 
 #favored {
@@ -583,6 +599,10 @@ figure i {
 
 #unfavored {
   color: #eb5757;
+}
+
+#optional {
+  display: none;
 }
 
 
@@ -731,6 +751,14 @@ figure i {
   max-width: 500px;
 }
 
+#logoball {
+  max-width: 320px;
+}
+
+.wide-diagram {
+  max-width: 1154px;
+}
+
 .single-column {
   max-width: 300px;
 }
@@ -742,6 +770,18 @@ figure i {
 .mockup, .sm-mockup {
   width: 280px;
   max-width: 724px;
+}
+
+#optional {
+  display: inline-block;
+}
+
+#replace {
+  display: none;
+}
+
+.bullet-text {
+  max-width: 500px;
 }
 
 
