@@ -145,6 +145,7 @@ nav svg {
 .hero-subtitle {
   color: #c2c2c2;
   margin: 24px 32px 48px 32px;
+  font-size: 1.3em;
 }
 
 section {
@@ -270,7 +271,6 @@ footer li {
 .summary-hero img, .tour img {
   width: 60vw;
   margin: 48px auto;
-  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.25);
 }
 
 .tour video, .tour img {
@@ -482,9 +482,10 @@ footer li {
 
 .group {
   padding: 0 20px;
+  margin-top: 48px;
 }
 
-.group-item {
+.group-item img{
   margin-bottom: 24px;
 }
 
@@ -558,6 +559,53 @@ figure i {
   max-width: 160px;
 }
 
+.mockup {
+  width: 90vw;
+}
+
+.wide-background {
+  margin: 48px 0px;
+  width: 100%;
+  height: 100%;
+  padding: 48px;
+}
+
+.wide-background p {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0px 10px;
+}
+
+.annotation {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  color: #ffff;
+  vertical-align: middle;
+  word-wrap: normal;
+  direction: ltr;
+  margin-right: 12px;
+}
+
+.bullet-text {
+  max-width: 250px;
+}
+
+#favored {
+  color: #27ae60;
+}
+
+#unfavored {
+  color: #eb5757;
+}
+
+#optional {
+  display: none;
+}
 
 @media screen and (min-width: 800px) {
   h1 {
@@ -576,6 +624,7 @@ figure i {
   .hero-subtitle {
     color: #c2c2c2;
     margin: 2vw 32px 7vw 32px;
+    font-size: 2em;
   }
 
   .features {
@@ -704,6 +753,14 @@ figure i {
   max-width: 500px;
 }
 
+#logoball {
+  max-width: 320px;
+}
+
+.wide-diagram {
+  max-width: 1154px;
+}
+
 .single-column {
   max-width: 300px;
 }
@@ -717,5 +774,23 @@ figure i {
   max-width: 724px;
 }
 
+#optional {
+  display: inline-block;
+}
+
+#replace {
+  display: none;
+}
+
+.bullet-text {
+  max-width: 500px;
+}
+
+/* About Page */
+
+#profile {
+  float: right;
+  margin: 48px 0 48px 48px;
+}
 
 }
