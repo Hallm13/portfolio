@@ -607,6 +607,14 @@ figure i {
   display: none;
 }
 
+#profile div {
+  margin-top: 48px;
+}
+
+#profile p {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 2.5em;
