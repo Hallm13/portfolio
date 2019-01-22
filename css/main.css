@@ -549,6 +549,10 @@ figure i {
   text-align: center;
 }
 
+.ideamapr-background {
+  background-image: url(/css/images/houston-bridge.jpg);
+}
+
 .image-background div {
   text-align: right;
   max-width: 724px;
@@ -559,11 +563,15 @@ figure i {
   margin: 48px 0;
 }
 
+.ideamapr-video {
+  max-width: 356px;
+}
+
 .sm-mockup {
   max-width: 160px;
 }
 
-.mockup {
+.mockup, .mockup-desktop {
   width: 90vw;
 }
 
@@ -784,6 +792,10 @@ figure i {
 .mockup, .sm-mockup {
   width: 280px;
   max-width: 724px;
+}
+
+.mockup-desktop {
+  max-width: 560px;
 }
 
 #optional {
