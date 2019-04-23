@@ -268,6 +268,10 @@ footer li {
   background-image: url(/css/images/wrapping-paper.png);
 }
 
+#speakup-hero {
+  background-color: #C9C7BB;
+}
+
 .summary-hero img, .tour img {
   width: 60vw;
   margin: 48px auto;
@@ -700,6 +704,13 @@ figure i {
 .summary-hero img {
   /* height: 50vw; */
   width: 20vw;
+  min-width: 200px;
+  margin: 8vw 0;
+}
+
+.summary-hero .summary-hero-img-lg {
+  /* height: 50vw; */
+  width: 50vw;
   min-width: 200px;
   margin: 8vw 0;
 }
